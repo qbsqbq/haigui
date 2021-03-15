@@ -1,5 +1,6 @@
 /* pages/home/home.wxss */
 /* 总cintainer */
+
 .container{
     padding: 20px;
     display: flex;
@@ -47,6 +48,7 @@
 }
 
 /* 轮播图 */
+
  .banar{
      margin-top: -4rpx;
      height: 186rpx;
@@ -68,6 +70,8 @@
     justify-content: space-between;
     flex-wrap: wrap;
  }
+
+
 
 .menu1{
     margin-left: 0rpx;
@@ -106,7 +110,6 @@
 .item_viwe_image{
     width: 100%;
     height: 320rpx;
-    
 }
 
 .item_image{

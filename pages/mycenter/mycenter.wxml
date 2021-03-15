@@ -1,1 +1,4 @@
 <view>New Page</view>
+<view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
