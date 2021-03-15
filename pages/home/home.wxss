@@ -1,0 +1,256 @@
+/* pages/home/home.wxss */
+/* 总cintainer */
+.container{
+    padding: 20px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 头部图片 */
+.bgimageview{
+    width: 100%;
+    height: 180rpx; 
+    display: flex;
+ }
+
+.bg_img1{
+    width: 212rpx;
+    height: 140rpx;
+    margin-top: 20rpx;
+    margin-right: 2rpx;
+}
+
+.bg_head{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+   
+}
+
+.country{
+    width: 20px;
+    height: 23px;
+   align-content: center;
+}
+
+.bg_img2{
+    width: 432rpx;
+    height: 180rpx;
+    margin-right: 10px;
+}
+
+.bg_img2 image{
+    width: 100%;
+    height: 100%;
+}
+
+/* 轮播图 */
+ .banar{
+     margin-top: -4rpx;
+     height: 186rpx;
+     width: 100%;
+ }
+
+.banar image{
+    width: 100%;
+    height: 100%;
+ }
+
+/* menu 块 */
+.menu{
+    margin-top: 40rpx;
+    width: 100%;
+    height: 136rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+
+.menu1{
+    margin-left: 0rpx;
+    width: 130rpx;
+    height: 136rpx;
+    text-align: center; 
+}
+
+.menu image{
+    width: 96rpx;
+    height: 96rpx;
+}
+
+.menu view{
+    font-size: 24rpx;
+    color: #5A6274;
+}
+
+/* 标题  热门活动 */
+.itme_title{
+    margin-top: 60rpx;
+    line-height: 40rpx;
+    width: 100%;
+    color: #5A6274;
+    font-size:28rpx;
+    font-weight: bold;
+}
+
+/* item 块 */
+.item{
+    margin-top: 10rpx;
+    width: 100%;
+    height: 540rpx;
+}
+
+.item_viwe_image{
+    width: 100%;
+    height: 320rpx;
+    
+}
+
+.item_image{
+    width: 100%;
+    height: 320rpx;
+    border-radius: 8rpx;
+}
+
+.item_content{
+    margin-top: 10rpx;
+    height: 130rpx;
+    width: 100%;
+}
+
+/* 活动块底部 */
+
+/* 标题 */
+.active_name{
+height: 80rpx;
+width: 100%;
+line-height: 80rpx;
+font-size:30rpx;
+font-weight: bold;
+color: #5A6274;
+}
+
+/* 时间 */
+.active_time{
+height: 40rpx;
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.active_timehead{
+height: 100%;
+display: flex;
+flex-direction: row;
+align-items: center;
+
+}
+.active_timehead image{
+    height: 22rpx;
+    width: 22rpx;
+    margin-right: 12rpx;
+    justify-content: center;
+}
+
+.active_timehead view{
+    font-size: 24rpx;
+    color: #5A6274;   
+}
+
+
+/* 人数 */
+.active_timecount{
+    height: 40rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.active_timecount image{
+    height: 22rpx;
+    width: 22rpx;
+    margin-right: 12rpx;
+    justify-content: center;
+}
+
+.active_timecount view{
+    font-size: 24rpx;
+    color: #5A6274;   
+}
+
+/* 自费 */
+.active_timezifei{
+    height: 40rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.active_timezifei image{
+    height: 22rpx;
+    width: 22rpx;
+    margin-right: 12rpx;
+    justify-content: center;
+}
+
+.active_timezifei view{
+    font-size: 24rpx;
+    color: #5A6274;   
+}
+
+
+/* 地址 */
+.active_address{
+    width: 100%;
+    height: 40rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.active_address image{
+    height: 22rpx;
+    width: 22rpx;
+    margin-right: 12rpx;
+    justify-content: center;
+}
+
+.active_address view{
+    font-size: 24rpx;
+    color: #5A6274;   
+}
+
+
+
+
+.morebtn{
+height: 72rpx;
+width: 410rpx;
+margin-top: 60rpx;
+font-weight: 400 !important;
+font-size: 28rpx !important;
+color: #5A6274 !important;
+border:1rpx solid #DDDDDD !important;
+background-color: white !important;
+
+/* 脱离 */
+/* position: absolute; */
+/* line-height: 72rpx;
+bottom: 59rpx;
+text-align: center;
+font-size: 28rpx;
+border:4rpx solid #DDDDDD;
+border-radius: 8rpx;
+color:#5A6274;
+justify-content: center; */
+
+
+ 
+}

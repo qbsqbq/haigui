@@ -1,0 +1,65 @@
+<!--pages/home/home.wxml-->
+<view class="container">
+	<view class='bgimageview'>
+		<view class="bg_img1">
+			<image class="bg_head" src="/assets/bg_head.png" />
+			<image class="country" src="/assets/bg_country.png" />
+		</view>
+		<view class="bg_img2">
+			<image src="/assets/bg_all.png" />
+		</view>
+	</view>
+
+	<view class="banar">
+		<image src="/assets/banner.png" />
+	</view>
+
+	<view class="menu">
+		<view class="menu1" wx:for="{{menus}}" wx:key="meunId" bind:tap="selectMenu" data-title="{{item.title}}">
+			<image src="{{item.icon}}" />
+			<view>{{item.title}}</view>
+		</view>
+	</view>
+
+	<view class="itme_title">热门活动</view>
+
+	<view class="item" wx:for="{{itemList}}" wx:key="itemId">
+		<view class="item_viwe_image">
+			<image
+			 class="item_image"
+			 src="{{item.image}}"
+			 mode="aspectFill"
+			>
+			</image>
+		</view>
+
+		<view class="item_content">
+			<view class="active_name">{{item.title}}</view>
+			<view class="active_time">
+				<view class="active_timehead">
+					<image class="active_timeImage" src="/assets/item_time.png">
+					</image>
+					<view class="active_time_lable">{{item.time}}</view>
+				</view>
+				<view class="active_timecount">
+					<image class="active_timeImage" src="/assets/item_count.png">
+					</image>
+					<view class="active_time_lable">{{item.people}}</view>
+				</view>
+				<view class="active_timezifei">
+					<image class="active_timeImage" src="/assets/item_money.png">
+					</image>
+					<view class="active_time_lable">{{item.zifei}}</view>
+				</view>
+			</view>
+			<view class="active_address">
+				<image class="active_timeImage" src="/assets/item_address.png">
+				</image>
+				<view class="active_time_lable">{{item.address}}</view>
+			</view>
+		</view>
+	</view>
+
+<button class="morebtn" plain bindtap="loadMoreData">点击更多 >></button>
+</view>
+
